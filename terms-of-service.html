@@ -1,0 +1,121 @@
+<title>Terms of Service — FORESEEABLE Publisher</title>
+<style>
+  :root {
+    --ground: #fbfcfd;
+    --panel: #ffffff;
+    --ink: #16191d;
+    --ink-soft: #4a5560;
+    --ink-faint: #6b7783;
+    --rule: #e4e9ee;
+    --accent: #0f7d84;
+    --accent-soft: #e5f2f2;
+    --maxw: 42rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0e1114; --panel: #14181c; --ink: #eef1f4; --ink-soft: #b3bcc5;
+      --ink-faint: #828d98; --rule: #262c33; --accent: #45c4cc; --accent-soft: #16302f;
+    }
+  }
+  :root[data-theme="light"] {
+    --ground: #fbfcfd; --panel: #ffffff; --ink: #16191d; --ink-soft: #4a5560;
+    --ink-faint: #6b7783; --rule: #e4e9ee; --accent: #0f7d84; --accent-soft: #e5f2f2;
+  }
+  :root[data-theme="dark"] {
+    --ground: #0e1114; --panel: #14181c; --ink: #eef1f4; --ink-soft: #b3bcc5;
+    --ink-faint: #828d98; --rule: #262c33; --accent: #45c4cc; --accent-soft: #16302f;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 4.5rem 1.5rem 6rem; }
+  .eyebrow {
+    font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600; margin: 0 0 0.9rem;
+  }
+  h1 {
+    font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.12;
+    letter-spacing: -0.02em; margin: 0 0 1rem; text-wrap: balance;
+  }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; font-size: 0.85rem;
+    color: var(--ink-faint); padding-bottom: 1.75rem; margin-bottom: 2.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .meta b { color: var(--ink-soft); font-weight: 600; }
+  .intro { font-size: 1.08rem; color: var(--ink); margin: 0 0 1.75rem; }
+
+  ol.terms { list-style: none; counter-reset: t; margin: 0; padding: 0; }
+  ol.terms > li {
+    counter-increment: t;
+    position: relative;
+    padding: 1.4rem 0 1.4rem 3rem;
+    border-top: 1px solid var(--rule);
+  }
+  ol.terms > li::before {
+    content: counter(t, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+  }
+  ol.terms h2 { font-size: 1.05rem; margin: 0 0 0.4rem; letter-spacing: -0.01em; }
+  ol.terms p { margin: 0; color: var(--ink-soft); }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-soft); }
+  a:hover { border-bottom-color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  footer {
+    margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule);
+    font-size: 0.82rem; color: var(--ink-faint);
+  }
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">FORESEEABLE Publisher</p>
+  <h1>Terms of Service</h1>
+  <div class="meta">
+    <span><b>Effective</b> 13 July 2026</span>
+    <span><b>Contact</b> kyle.zammit@hotmail.co.uk</span>
+  </div>
+
+  <p class="intro">FORESEEABLE Publisher is a private, single-user application operated by the owner of the FORESEEABLE channel (<strong>@watchforeseeable</strong>). It uploads and schedules the channel's own original videos to the channel's own social accounts, including TikTok via the Content Posting API. By operating the application, the operator agrees to these terms.</p>
+
+  <ol class="terms">
+    <li>
+      <h2>Single user</h2>
+      <p>The application is not offered to the public. Its only user is its operator, publishing to accounts the operator owns. There is no registration, no subscription, and no service provided to any third party.</p>
+    </li>
+    <li>
+      <h2>Content</h2>
+      <p>All published content is the operator's own work, built from public-domain and Creative Commons–licensed archival material with attribution, and complies with the content policies of each platform it is published to. Synthetic media (AI narration) is disclosed using each platform's own disclosure mechanism.</p>
+    </li>
+    <li>
+      <h2>Acceptable use</h2>
+      <p>The application is used in accordance with the <strong>TikTok Developer Terms</strong> and <strong>Community Guidelines</strong> (and the equivalent terms of every other platform it posts to). It does not automate engagement — no likes, follows, or comments — does not scrape data, and never interacts with any account other than the operator's own.</p>
+    </li>
+    <li>
+      <h2>Warranty &amp; liability</h2>
+      <p>The application is provided as-is for the operator's own use. No warranties are made to any third party, and the operator assumes all responsibility for its operation.</p>
+    </li>
+    <li>
+      <h2>Contact</h2>
+      <p>Questions about these terms can be sent to <a href="mailto:kyle.zammit@hotmail.co.uk">kyle.zammit@hotmail.co.uk</a>.</p>
+    </li>
+  </ol>
+
+  <footer>
+    FORESEEABLE Publisher is not affiliated with, endorsed by, or sponsored by TikTok, Meta, or any platform it publishes to. All platform names are the property of their respective owners.
+  </footer>
+</div>
